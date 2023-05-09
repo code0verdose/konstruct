@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open-Sans", sans-serif;
+  color: $main-text-color;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 15px;
+  box-sizing: content-box;
+}
+
+.title {
+  letter-spacing: 2.3px;
+  font-size: 18px;
+  line-height: 25px;
+}
