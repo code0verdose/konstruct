@@ -1,12 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Konstruct - Home</title>
-  <link rel="stylesheet" href="./src/styles/style.css">
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konstruct - Home</title>
+    <link rel="stylesheet" href="./src/styles/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container flex-header">
+        <img
+          src="./src/images/logo/logo_white.svg"
+          alt="KONSTRUCT"
+          class="header__logo"
+        />
+        <div>
+          <h1 class="header__title">PARTNER WITH KONSTRUCT</h1>
+          <p class="header__subtitle">
+            An award-winning construction management firm
+          </p>
+        </div>
+        <a href="#" class="header__link">SCROLL DOWN</a>
+      </div>
+    </header>
+    <!-- Main -->
+    <main>
+      <!-- Navbar -->
+      <nav class="navbar">
+        <div class="container flex-navbar">
+          <img
+            src="./src/images/logo/logo_black.svg"
+            alt="KONSTRUCT"
+            class="navbar__img"
+          />
+          <ul class="navbar__list">
+            <li><a href="#" class="navbar__link">HOME</a></li>
+            <li><a href="#" class="navbar__link">ABOUT</a></li>
+            <li><a href="#" class="navbar__link">SERVICES</a></li>
+            <li><a href="#" class="navbar__link">WORK</a></li>
+            <li><a href="#" class="navbar__link">CONTACT</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- STORY -->
+      <section class="story">
+        <div class="container">
+          <h2 class="story__title title">OUR STORY</h2>
+          <div class="story-wrapper">
+            <!-- TEXT -->
+            <div class="story__text">
+              <h3 class="story__subtitle">
+                Founded in 2011 by John Mathew Smith,&nbsp;<span class="mark"
+                  >Konstruct</span
+                >
+                has become the number&nbsp;one construction management
+              </h3>
+              <p class="story__text">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat. Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat.
+              </p>
+            </div>
+            <!-- CARDS -->
+            <div class="story__cards">
+              <div class="story__card card card_plan">
+                <span class="card__text">WE<br />PLAN</span>
+              </div>
+              <div class="story__card card card_manage">
+                <span class="card__text">WE<br />MANAGE</span>
+              </div>
+              <div class="story__card card card_build">
+                <span class="card__text">WE<br />BUILD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- GET IN -->
+    <section class="get-in">
+      <div class="container">
+        <h2 class="get-in__title">Want to build something amazing?</h2>
+        <button class="get-in__button btn">GET IN TOUCH</button>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <form class="fotter__form form">
+        <label class="form__label" for="email">Newsletter Signup</label>
+        <input
+          class="form__input"
+          id="email"
+          placeholder="test@youremail.com"
+          required
+          maxlength="48"
+          type="email"
+        />
+        <button class="btn form__btn">SIGNUP</button>
+      </form>
+      <p class="footer__copyright">
+        © 2017 Konstruct Inc. Designed by Jane Kathryn Teo
+      </p>
+    </footer>
+  </body>
 </html>

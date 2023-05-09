@@ -1,0 +1,19 @@
+.btn {
+  cursor: pointer;
+  border: 0;
+  background: $accent-color;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+  transition: 0.3s;
+
+  &:hover {
+    background: darken($accent-color, 10);
+    transition: 0.3s;
+  }
+}

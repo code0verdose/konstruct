@@ -1,0 +1,30 @@
+.card {
+  background: #3a4f63;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 140px;
+  height: 224px;
+  color: #fff;
+  padding: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: 0.18px;
+
+  &_manage {
+    background-image: url('../images/items/manage.webp');
+    background-image: -webkit-image-set(url('../images/items/manage.webp') 1x, url('../images/items/manage_2x.webp') 2x);
+  }
+
+  &_build {
+    background-image: url('../images/items/build.webp');
+    background-image: -webkit-image-set(url('../images/items/build.webp') 1x, url('../images/items/build_2x.webp') 2x);
+  }
+
+  &_plan {
+    background-image: url('../images/items/plan.webp');
+    background-image: -webkit-image-set(url('../images/items/plan.webp') 1x, url('../images/items/plan_2x.webp') 2x);
+  }
+}

@@ -1,0 +1,19 @@
+.get-in {
+  padding: 120px 0 231px;
+  background: url("../images/bg/bg_footer.webp") no-repeat center / cover;
+  height: 499px;
+
+  &__title {
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    max-width: 350px;
+    margin: 0 auto 35px;
+  }
+
+  &__button {
+    margin: 0 auto;
+    display: block;
+  }
+}
